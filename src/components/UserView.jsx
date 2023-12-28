@@ -8,7 +8,7 @@ const UserView = () => {
     <div className='flex flex-col justify-center items-center py-10'>
         <h3 className='text-4xl py-10'> {getUser} </h3>
         <button className='bg-blue-400 py-2 px-4 text-white' onClick={() => {setUser(userData)}}> Get Users </button>
-        
+        <button className='bg-blue-400 py-2 px-8 mt-5 text-white' onClick={() => {setUser("Click Button To Get Data")}}> Reset  </button>
     </div>
   )
 }
